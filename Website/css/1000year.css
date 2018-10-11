@@ -1,0 +1,37 @@
+body{
+	font-family: "Verdana", Times, sans;
+	background-color: #aaa;
+	margin: 0;
+	width: 100%;
+	overflow: auto;
+	display: block;
+}
+
+div{
+	width: 100%;
+}
+
+.header{
+	background-color: #fff;
+	border-style: none;
+}
+
+.nav{
+	border-style: none;
+	margin: 1% 0;
+}
+
+.gameList{
+	text-align: left;
+}
+
+.gameList ul{
+	list-style: none;
+}
+
+.description{
+	margin: 1% auto;
+	text-align: left;
+	overflow: auto;
+	width: 85%;
+}

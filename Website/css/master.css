@@ -1,5 +1,6 @@
 body{
 	text-align: center;
+	width: 100%;
 }
 
 img{
@@ -11,10 +12,12 @@ div{
 }
 
 .header{
+	position: relative;
 	display: block;
 	text-align: center;
 	overflow: auto;
 	height: 8vh;
+	padding-top: 10px;
 }
 
 .header a{
