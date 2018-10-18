@@ -41,6 +41,12 @@ div{
 
 .nav {
 	text-align: center;
+	background-color: #777;
+}
+
+.nav a{
+	padding-left: 3px;
+	padding-right: 3px;
 }
 
 .imgContainer{
