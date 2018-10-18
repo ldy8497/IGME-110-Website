@@ -1,6 +1,8 @@
 body{
 	text-align: center;
 	width: 100%;
+	margin: auto;
+	font-family: "Verdana", Times, sans;
 }
 
 img{
@@ -18,6 +20,7 @@ div{
 	overflow: auto;
 	height: 8vh;
 	padding-top: 10px;
+	background-color: #777;
 }
 
 .header a{
@@ -33,15 +36,11 @@ div{
 .header h1{
 	float: right;
 	font-size: 3vh;
-	margin: 0;
+	margin: auto;
 }
 
 .nav {
 	text-align: center;
-}
-
-.nav a{
-	
 }
 
 .imgContainer{
@@ -51,6 +50,7 @@ div{
 
 .overlayText{
 	position: absolute;
-	left: 5%;
+	left: 3%;
 	top: 10%;
+	font-size: 10px;
 }
