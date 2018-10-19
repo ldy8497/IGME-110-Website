@@ -42,11 +42,21 @@ div{
 .nav {
 	text-align: center;
 	background-color: #777;
+	padding: 5px 0;
 }
 
-.nav a{
-	padding-left: 3px;
-	padding-right: 3px;
+.nav form{
+	width: auto;
+	display: inline-block;
+}
+
+.nav button{
+	padding-right: 0px;
+	padding-left: 0;
+	margin: 0;
+	display: inline;
+	background-color: #888;
+	border: none;
 }
 
 .imgContainer{
