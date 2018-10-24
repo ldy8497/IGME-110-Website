@@ -1,4 +1,5 @@
 body{
+	background-color: #aaa;
 	text-align: center;
 	width: 100%;
 	margin: auto;
@@ -16,6 +17,7 @@ img{
 
 div{
 	width: 100%;
+	display: inline-block;
 }
 
 .header-wrapper{
@@ -72,6 +74,26 @@ div{
 	display: inline;
 	background-color: #888;
 	border: none;
+}
+
+.kingdomHearts, .roxas, .existentialism{
+	width: 97%;
+	margin: 0px 5px;
+}
+
+.kingdomHearts img{
+	float: left;
+	width: 45%;
+}
+
+.roxas img{
+	float: left;
+	width: 45%;
+}
+
+.existentialism img{
+	float: right;
+	width: 40%;
 }
 
 .imgContainer{
