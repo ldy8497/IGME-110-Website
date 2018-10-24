@@ -13,6 +13,12 @@ div{
 	width: 100%;
 }
 
+.header-wrapper{
+	top: 0;
+	position: fixed;
+	z-index: 1000;
+}
+
 .header{
 	position: relative;
 	display: block;
