@@ -3,7 +3,7 @@ body{
 	text-align: center;
 	width: 100%;
 	margin: auto;
-	margin-top: 100px;
+	margin-top: 13vh;
 	font-family: "Verdana", Times, sans;
 }
 
@@ -24,10 +24,13 @@ div{
 	top: 0;
 	position: fixed;
 	z-index: 1000;
+	background-color: #777;
 }
 
 .sticky-footer{
-	height: 40px;
+	background-color: #777;
+	font-size: 1.2em;
+	overflow: auto;
 }
 
 .header{
@@ -37,7 +40,6 @@ div{
 	overflow: auto;
 	height: 8vh;
 	padding-top: 10px;
-	background-color: #777;
 }
 
 .header a{
@@ -52,14 +54,17 @@ div{
 
 .header h1{
 	float: right;
-	font-size: 3vh;
+	font-size: 2em;
 	margin: auto;
 }
 
 .nav {
 	text-align: center;
 	background-color: #777;
-	padding: 5px 0;
+	padding-bottom: 5px;
+	height: 2vh;
+	font-size: 1.2em;
+	overflow: visible;
 }
 
 .nav form{
@@ -78,13 +83,23 @@ div{
 
 .kingdomHearts, .roxas, .existentialism{
 	width: 97%;
-	margin: 0px 5px;
+	padding: 5px;
 	background-color: #acacac;
+	font-family: 'Fira Sans Condensed', sans-serif;
 }
 
-.kingdomHearts img{
+/*.kingdomHearts img{
 	float: left;
 	width: 45%;
+}*/
+
+.kingdomHearts h1, .roxas h1, .existentialism h1{
+	font-family: 'Charmonman', cursive;
+	font-size: 3em;
+}
+
+.kingdomHearts p, .roxas p, .existentialism p{
+	font-size: 1.5em;
 }
 
 .roxas img{
@@ -107,4 +122,17 @@ div{
 	left: 3%;
 	top: 10%;
 	font-size: 10px;
+}
+
+.imgColumn{
+	width: 45%;
+	top: 45%;
+}
+
+.imgColumn img{
+	width: 100%;
+}
+
+.textColumn{
+	width: 50%;
 }
