@@ -54,7 +54,7 @@ div{
 }
 
 .header a:hover{
-	background-color: #717171;
+	background-color: #707070;
 	text-decoration: underline;
 }
 
@@ -73,7 +73,6 @@ div{
 
 .nav {
 	background-color: #777;
-	padding-bottom: 5px;
 	height: auto;
 	font-size: 1.2em;
 	overflow: visible;
@@ -81,19 +80,19 @@ div{
 
 .nav a{
 	text-decoration: none;
-	padding: 0px 5px;
+	padding: 5px 5px;
 	margin: 0;
 	display: inline;
 	float: left;
+	color: inherit;
 }
 
 .nav a:visited{
 	text-decoration: none;
-	color: inherit;
 }
 
 .nav a:hover{
-	background-color: #717171;
+	background-color: #707070;
 	text-decoration: underline;
 }
 
