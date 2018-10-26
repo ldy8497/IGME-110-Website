@@ -1,5 +1,5 @@
 body{
-	background-color: #aaa;
+	background-color: #ddd;
 	text-align: center;
 	width: 100%;
 	margin: auto;
@@ -25,6 +25,7 @@ div{
 	position: fixed;
 	z-index: 1000;
 	background-color: #777;
+	box-shadow: 0px 2px 40px 5px;
 }
 
 .sticky-footer{
@@ -44,54 +45,64 @@ div{
 
 .header a{
 	height: auto;
+	text-decoration: none;
+}
+
+.header a:visited{
+	text-decoration: none;
+	color: inherit;
+}
+
+.header a:hover{
+	background-color: #717171;
+	text-decoration: underline;
 }
 
 .logo{
 	float: left;
 	margin: 0px;
-	width: 10vw;
+	width: auto;
+	height: 100%;
 }
 
 .header h1{
 	float: right;
-	font-size: 2em;
+	font-size: 3vh;
 	margin: auto;
 }
 
 .nav {
-	text-align: center;
 	background-color: #777;
 	padding-bottom: 5px;
-	height: 2vh;
+	height: auto;
 	font-size: 1.2em;
 	overflow: visible;
 }
 
-.nav form{
-	width: auto;
-	display: inline-block;
-}
-
-.nav button{
-	padding-right: 0px;
-	padding-left: 0;
+.nav a{
+	text-decoration: none;
+	padding: 0px 5px;
 	margin: 0;
 	display: inline;
-	background-color: #888;
-	border: none;
+	float: left;
+}
+
+.nav a:visited{
+	text-decoration: none;
+	color: inherit;
+}
+
+.nav a:hover{
+	background-color: #717171;
+	text-decoration: underline;
 }
 
 .kingdomHearts, .roxas, .existentialism{
 	width: 97%;
 	padding: 5px;
-	background-color: #acacac;
+	background-color: #ddd;
 	font-family: 'Fira Sans Condensed', sans-serif;
 }
-
-/*.kingdomHearts img{
-	float: left;
-	width: 45%;
-}*/
 
 .kingdomHearts h1, .roxas h1, .existentialism h1{
 	font-family: 'Charmonman', cursive;
@@ -126,7 +137,12 @@ div{
 
 .imgColumn{
 	width: 45%;
-	top: 45%;
+	min-width: 600px;
+	/*top: 45%;*/
+}
+
+#exImgCol{
+	float: right;
 }
 
 .imgColumn img{
