@@ -1,4 +1,4 @@
-h1, h2{
+h2{
   padding: 2% 0;
 }
 .portrait{
@@ -17,6 +17,15 @@ h1, h2{
 .beginning{
   width: 30%;
   text-align: center;
+  font-size: 80%;
+}
+
+#bigImage{
+  width: 45%;
+}
+
+.beginning img{
+  width: 100%;
 }
 
 .main-content{
@@ -25,4 +34,8 @@ h1, h2{
 
 .main-content p{
   text-align: left;
+}
+
+.main-content img{
+  max-width: 45%;
 }
